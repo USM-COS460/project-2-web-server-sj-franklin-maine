@@ -213,7 +213,7 @@ int main(int argc, char *argv[])
     }
 
     // Listen
-    if (listen(server_fd, 3) < 0)
+    if (listen(server_fd, 20) < 0)
     {
         perror("listen");
         exit(EXIT_FAILURE);
